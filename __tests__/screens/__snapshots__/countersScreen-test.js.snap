@@ -1,0 +1,244 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`toMatchSnapshot Default 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#0082c9",
+      "flex": 1,
+      "flexDirection": "column",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#001c47",
+        "flexDirection": "row",
+        "height": 70,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      numberOfLines={1}
+      style={
+        Object {
+          "color": "#fff",
+          "fontSize": 28,
+          "fontWeight": "bold",
+          "paddingLeft": 10,
+          "paddingTop": 28,
+          "width": "90%",
+        }
+      }
+    >
+      Counters
+    </Text>
+  </View>
+  <RCTScrollView
+    data={
+      Array [
+        Counter {
+          "value": 0,
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={true}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#d8d8d8",
+              "borderColor": "#001c47",
+              "borderRadius": 2,
+              "borderWidth": 2,
+              "elevation": 10,
+              "margin": 10,
+              "opacity": 1,
+              "padding": 10,
+              "shadowColor": "#333",
+            }
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#8e8e93",
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Counter 
+              1
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#333",
+                  "fontSize": 60,
+                  "fontWeight": "bold",
+                  "paddingVertical": 12,
+                  "textAlign": "right",
+                  "width": "100%",
+                }
+              }
+            >
+              0000
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`toMatchSnapshot No Data 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#0082c9",
+      "flex": 1,
+      "flexDirection": "column",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#001c47",
+        "flexDirection": "row",
+        "height": 70,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      numberOfLines={1}
+      style={
+        Object {
+          "color": "#fff",
+          "fontSize": 28,
+          "fontWeight": "bold",
+          "paddingLeft": 10,
+          "paddingTop": 28,
+          "width": "90%",
+        }
+      }
+    >
+      Counters
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": "100%",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#fff",
+          "fontSize": 28,
+          "fontWeight": "bold",
+        }
+      }
+      testId="textNoData"
+    >
+      NO COUNTERS FOUND
+    </Text>
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": "#001c47",
+            "fontSize": 100,
+          },
+          undefined,
+          Object {
+            "fontFamily": null,
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      󰋔
+    </Text>
+  </View>
+  <RCTScrollView
+    data={Array []}
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={true}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View />
+  </RCTScrollView>
+</View>
+`;
